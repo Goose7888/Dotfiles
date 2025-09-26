@@ -42,13 +42,13 @@ tooltip label {
 #network,
 #pulseaudio,
 #language {
-    margin: 6px 6px 6px 0px;
+    margin: 0px 6px 0px 0px;
     padding: 2px 8px;
     border-radius: 4px;
 }
 
 #workspaces {
-    margin: 6px 0px 6px 6px;
+    margin: 0px 0px 0px 6px;
     border-radius: 4px;
 }
 
@@ -79,6 +79,8 @@ tooltip label {
     background: repeating-linear-gradient(
         45deg,
         rgb(255, 77, 215),
+        /*rgb(232, 234, 246),*/
+        /* rgb(152, 251, 152), */
         rgb(65, 243, 227)
     );
     /* animation: gradientAnimation 2s linear infinite reverse; */
@@ -105,7 +107,7 @@ tooltip label {
     border-radius: 4px;
     color: #fcfcce;
 
-    margin: 6px 6px 6px 6px;
+    margin: 0px 6px 0px 6px;
     padding: 0px 8px 0px 4px;
 }
 
