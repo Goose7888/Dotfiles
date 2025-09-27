@@ -48,7 +48,8 @@
   },
 
   "clock": {
-    "format": "{:%H:%M - %a, %d %b %Y}",
+    "format": "{:%r %a %b %d}",
+    "interval": 1,
     "tooltip": false,
   },
 
