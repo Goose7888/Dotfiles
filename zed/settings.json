@@ -7,6 +7,72 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        }
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+  "cli_default_open_behavior": "new_window",
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "ssh_connections": [
+    {
+      "host": "dev",
+      "port": 4433,
+      "args": [
+        "-X"
+      ],
+      "projects": [
+        {
+          "paths": [
+            "/home/syndr/csc4760-a2"
+          ]
+        }
+      ]
+    },
+    {
+      "host": "login.hpc.tntech.edu",
+      "username": "tlclark42",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/tntech.edu/tlclark42/csc4760-001-2026s/assignment2"
+          ]
+        },
+        {
+          "paths": [
+            "/home/tntech.edu/tlclark42/csc4760-001-2026s/assignment3"
+          ]
+        }
+      ]
+    }
+  ],
+  "edit_predictions": {
+    "provider": "none"
+  },
+  "format_on_save": "off",
   "tab_bar": {
     "show_nav_history_buttons": false
   },
@@ -18,10 +84,6 @@
   },
   "project_panel": {
     "dock": "right"
-  },
-
-  "features": {
-    "edit_prediction_provider": "none"
   },
   "disable_ai": true,
 
